@@ -9,11 +9,11 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #3498db, #c8d6e5); /* Gradient background */
+            background: linear-gradient(135deg, #3498db, #c8d6e5);
         }
 
         header {
-            background-color: #333;
+            background-color: #3498db;
             color: #fff;
             padding: 20px;
             text-align: center;
@@ -55,6 +55,16 @@
         tr:hover {
             background-color: #e0e0e0;
         }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image {
+            display: inline-block;
+            margin: 0 20px;
+        }
     </style>
 </head>
 <body>
@@ -87,8 +97,12 @@
         </tr>
         <!-- Add the rest of your table rows here -->
     </table>
+
+    <div class="image-container">
+        <img class="image" src="dog.jpg" alt="Cute Dog Image">
+        <img class="image" src="car.jpg" alt="Car Image">
+    </div>
 </body>
 </html>
-
 
 
